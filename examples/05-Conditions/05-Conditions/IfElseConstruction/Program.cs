@@ -10,7 +10,7 @@ namespace IfElseConstruction
     {
         static void Main(string[] args)
         {
-             Console.WriteLine("Please enter an integer:");
+            Console.WriteLine("Please enter an integer:");
             int numInt = int.Parse(Console.ReadLine());
 
             if (numInt % 2  == 0)

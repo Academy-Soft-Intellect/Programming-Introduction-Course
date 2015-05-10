@@ -14,7 +14,7 @@ namespace IfConstruction
             int numInt = int.Parse(Console.ReadLine());
             if (numInt == 100)
             {
-               Console.WriteLine(("The number is 100"));
+               Console.WriteLine("The number is 100");
             }
         }
     }

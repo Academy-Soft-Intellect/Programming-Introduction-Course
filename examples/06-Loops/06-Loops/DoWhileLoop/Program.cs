@@ -10,7 +10,7 @@ namespace DoWhileLoop
     {
         private static void Main(string[] args)
         {
-            int counter = -1;
+            int counter = 5;
 
             do
             {
