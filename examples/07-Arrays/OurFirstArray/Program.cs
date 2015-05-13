@@ -10,6 +10,16 @@ namespace OurFirstArray
     {
         static void Main(string[] args)
         {
+            int[] array = new int[5];
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine("Enter number");
+                array[i] = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("Max elementh is: " + array.Max());
+            Console.WriteLine("Min elementh is: " + array.Min());
 
         }
     }
