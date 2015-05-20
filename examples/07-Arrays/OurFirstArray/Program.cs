@@ -10,16 +10,24 @@ namespace OurFirstArray
     {
         static void Main(string[] args)
         {
-            int[] array = new int[5];
+            Console.Write("Input n = ");
+            int n = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < array.Length; i++)
+            Console.Write("Input k = ");
+            int k = int.Parse(Console.ReadLine());
+
+            int result = 1;
+            for (int i = n; i > n - k; i--)
             {
-                Console.WriteLine("Enter number");
-                array[i] = int.Parse(Console.ReadLine());
+                result *= i;
             }
 
-            Console.WriteLine("Max elementh is: " + array.Max());
-            Console.WriteLine("Min elementh is: " + array.Min());
+            for (int i = 1; i <= k; i++)
+            {
+                result *= i;
+            }
+
+            Console.WriteLine("N!*K!/(N-K)! = " + result);
 
         }
     }
