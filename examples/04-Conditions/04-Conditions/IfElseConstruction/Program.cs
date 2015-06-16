@@ -13,7 +13,7 @@ namespace IfElseConstruction
             Console.WriteLine("Please enter an integer:");
             int numInt = int.Parse(Console.ReadLine());
 
-            if (numInt % 2  == 0)
+            if (numInt % 2 == 0)
             {
                 Console.WriteLine("The number is even!");
             }

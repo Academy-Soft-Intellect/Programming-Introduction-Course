@@ -11,7 +11,6 @@ namespace SwitchConstruction
         private static void Main(string[] args)
         {
             Console.WriteLine("Enter day of the week: ");
-
             int day = int.Parse(Console.ReadLine());
 
             switch (day)
@@ -48,17 +47,18 @@ namespace SwitchConstruction
             {
                 case "a":
                 case "b":
-                case "c":
-                {
-                    Console.WriteLine("A,B,C");
+                case "c": 
                     Console.WriteLine("A,B,C");
                     break;
-                }
+
                 case "x":
                 case "y":
                 case "z":
                     Console.WriteLine("X,Y,Z");
-                    Console.WriteLine("X,Y,Z");
+                    break;
+
+                default:
+                    Console.WriteLine("Default");
                     break;
             }
         }
