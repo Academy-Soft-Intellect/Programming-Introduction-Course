@@ -11,9 +11,11 @@ namespace Comparison
         static void Main(string[] args)
         {
             int x = 6;
-            int z = 8;
+            int z = 9;
 
-            Console.WriteLine(x==z);
+            bool result = (x > z);
+
+            Console.WriteLine(result);
         }
     }
 }

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "Variables\Vari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Literals", "Literals\Literals.csproj", "{5C853B5A-27F5-40E5-BC4A-FDF6A3F9498B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logical", "Logical\Logical.csproj", "{5AA16F9D-9030-4386-A8D1-AF86D871C4EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5C853B5A-27F5-40E5-BC4A-FDF6A3F9498B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C853B5A-27F5-40E5-BC4A-FDF6A3F9498B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C853B5A-27F5-40E5-BC4A-FDF6A3F9498B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA16F9D-9030-4386-A8D1-AF86D871C4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA16F9D-9030-4386-A8D1-AF86D871C4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA16F9D-9030-4386-A8D1-AF86D871C4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA16F9D-9030-4386-A8D1-AF86D871C4EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

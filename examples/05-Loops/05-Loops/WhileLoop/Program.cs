@@ -4,15 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XOR
+namespace WhileLoop
 {
     class Program
     {
         static void Main(string[] args)
         {
-            bool a = false;
+            int counter = 0;
 
-            Console.WriteLine(!a);
+            while (counter <= 10)
+            {
+                Console.WriteLine(counter);
+                counter++;
+            }
         }
     }
 }

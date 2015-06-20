@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XOR
+namespace Logical
 {
     class Program
     {
         static void Main(string[] args)
         {
-            bool a = false;
-
-            Console.WriteLine(!a);
+            bool a = true; 
+            bool b = false;
+            Console.WriteLine(a || b);
         }
     }
 }

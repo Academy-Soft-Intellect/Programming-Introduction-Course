@@ -10,9 +10,13 @@ namespace Variables
     {
         static void Main(string[] args)
         {
-            byte testByte = 11;
-            short testShort = 30000;
             int testInt = 4;
+
+            //
+            int lazar = 5;
+            //
+
+            testInt = 30;
         }
     }
 }

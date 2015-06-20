@@ -10,23 +10,20 @@ namespace ArithmeticalOperations
     {
         static void Main(string[] args)
         {
-            Console.Write("Please enter a new number:");
+            Console.Write("Please enter a new number: ");
+            string str = Console.ReadLine();
 
-            float x = float.Parse(Console.ReadLine());
+            int x = int.Parse(str);
 
             Console.WriteLine(x);
             Console.WriteLine();
-            Console.Write("Целочислено деление на 3:    ");
-            float y = x / 3;
+            Console.Write("x / 3 = ");
+            int y = x / 3;
             Console.WriteLine(y);
 
-            Console.Write("Деление по модул на 3:    ");
-            float z = x % 3;
+            Console.Write("x % 3 = ");
+            int z = x % 3;
             Console.WriteLine(z);
-
-
-            int income = 10;
-            Console.WriteLine(income + "asdasdas");
 
         }
     }

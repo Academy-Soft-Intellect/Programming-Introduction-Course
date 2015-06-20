@@ -14,7 +14,8 @@ namespace ConsoleInput
 
             string x = Console.ReadLine();
 
-            Console.WriteLine(x);
+            Console.Write(x);
+            Console.WriteLine(" sezam otvori se");
         }
     }
 }
