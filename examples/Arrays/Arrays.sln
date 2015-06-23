@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{BFE571B6-5612-4162-A030-2564283499E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeachDemo", "ForeachDemo\ForeachDemo.csproj", "{CEF7EF93-6390-45C1-BB23-D15B8F4AD386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyArray", "CopyArray\CopyArray.csproj", "{09737B78-ADAA-4EDD-B474-9E34A2F1B9BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFE571B6-5612-4162-A030-2564283499E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE571B6-5612-4162-A030-2564283499E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE571B6-5612-4162-A030-2564283499E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE571B6-5612-4162-A030-2564283499E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF7EF93-6390-45C1-BB23-D15B8F4AD386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF7EF93-6390-45C1-BB23-D15B8F4AD386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF7EF93-6390-45C1-BB23-D15B8F4AD386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF7EF93-6390-45C1-BB23-D15B8F4AD386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09737B78-ADAA-4EDD-B474-9E34A2F1B9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09737B78-ADAA-4EDD-B474-9E34A2F1B9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09737B78-ADAA-4EDD-B474-9E34A2F1B9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09737B78-ADAA-4EDD-B474-9E34A2F1B9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
