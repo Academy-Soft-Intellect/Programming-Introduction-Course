@@ -12,6 +12,7 @@ namespace Task
         {
             Console.WriteLine("Please enter an integer:");
             int numInt = int.Parse(Console.ReadLine());
+
             if (numInt >= 1 && numInt <= 5)
             {
                 if (numInt % 2 == 0)

@@ -13,14 +13,14 @@ namespace IfElseConstruction
             Console.WriteLine("Please enter an integer:");
             int numInt = int.Parse(Console.ReadLine());
 
-            if (numInt % 2 == 0)
-            {
-                Console.WriteLine("The number is even!");
-            }
-            else
-            {
-                Console.WriteLine("The number is odd!");
-            }
+            //if (numInt % 2 == 0)
+            //{
+            //    Console.WriteLine("The number is even!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The number is odd!");
+            //}
 
             if (numInt > 0 && numInt <= 10)
             {

@@ -16,6 +16,8 @@ namespace IfConstruction
             {
                 Console.WriteLine("The number is 100");
             }
+
+            Console.WriteLine("Prodyljavame napred");
         }
     }
 }
