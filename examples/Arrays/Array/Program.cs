@@ -25,6 +25,15 @@ namespace Array
             {
                 Console.WriteLine(ourArr[i]);
             }
+
+            int a = 5; 
+            int b = 6;
+            int temp;
+
+            temp = a;
+            a = b;
+            b = temp;
+
         }
     }
 }

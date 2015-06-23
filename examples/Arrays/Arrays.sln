@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeachDemo", "ForeachDemo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyArray", "CopyArray\CopyArray.csproj", "{09737B78-ADAA-4EDD-B474-9E34A2F1B9BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{26C68E3A-0D6C-47F6-92F2-A99E6F38BECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsArraySymetric", "IsArraySymetric\IsArraySymetric.csproj", "{9BA566C4-426D-4AE0-A135-D6F50E4515B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{09737B78-ADAA-4EDD-B474-9E34A2F1B9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09737B78-ADAA-4EDD-B474-9E34A2F1B9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09737B78-ADAA-4EDD-B474-9E34A2F1B9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C68E3A-0D6C-47F6-92F2-A99E6F38BECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C68E3A-0D6C-47F6-92F2-A99E6F38BECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C68E3A-0D6C-47F6-92F2-A99E6F38BECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C68E3A-0D6C-47F6-92F2-A99E6F38BECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA566C4-426D-4AE0-A135-D6F50E4515B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA566C4-426D-4AE0-A135-D6F50E4515B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA566C4-426D-4AE0-A135-D6F50E4515B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA566C4-426D-4AE0-A135-D6F50E4515B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
