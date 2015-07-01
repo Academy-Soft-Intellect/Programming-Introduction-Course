@@ -19,16 +19,17 @@ namespace VariableNumberOfParams
 
 
             Console.WriteLine("Call method with 4 params");
-            PrintNames(count, "f", "g", "h", "i");
+            PrintNames(count, "f", "g", "h", "i", "dss", "mm", "nn");
         }
 
         private static int PrintNames(int counter, params string[] names)
         {
-            Console.WriteLine(counter);
+            Console.WriteLine();
             foreach (string name in names)
             {
                 Console.Write(name+"\t");
             }
+            Console.WriteLine();
             Console.WriteLine();
             return 0;
         }
