@@ -6,13 +6,6 @@ using System.Threading.Tasks;
 
 namespace _08_MethodsTasksAndArraysHW
 {
-    enum Direction
-    {
-        Left,
-        Right,
-        Up,
-        Down,
-    }
     class Program
     {
         static void Main(string[] args)
@@ -25,11 +18,11 @@ namespace _08_MethodsTasksAndArraysHW
             int col = -1;
             int num = 1;
             int step = n;
-            Direction currentDirection = Direction.Right;
+            string direction = "Right";
 
-            while (step > 0)
+            while (num <= n*n)
             {
-                if (currentDirection == Direction.Right)
+                if (direction == "Right")
                 {
                     for (int k = 0; k < step; k++)
                     {
@@ -37,11 +30,11 @@ namespace _08_MethodsTasksAndArraysHW
                         array[row, col] = num;
                         num++;
                     }
-                    currentDirection = Direction.Down;
+                    direction = "Down";
                     step--;
                 }
 
-                if (currentDirection == Direction.Down)
+                if (direction == "Down")
                 {
                     for (int k = 0; k < step; k++)
                     {
@@ -49,10 +42,10 @@ namespace _08_MethodsTasksAndArraysHW
                         array[row, col] = num;
                         num++;
                     }
-                    currentDirection = Direction.Left;
+                    direction = "Left";
                 }
 
-                if (currentDirection == Direction.Left)
+                if (direction == "Left")
                 {
                     for (int k = 0; k < step; k++)
                     {
@@ -60,11 +53,11 @@ namespace _08_MethodsTasksAndArraysHW
                         array[row, col] = num;
                         num++;
                     }
-                    currentDirection = Direction.Up;
+                    direction = "Up";
                     step--;
                 }
 
-                if (currentDirection == Direction.Up)
+                if (direction == "Up")
                 {
                     for (int k = 0; k < step; k++)
                     {
@@ -72,7 +65,7 @@ namespace _08_MethodsTasksAndArraysHW
                         array[row, col] = num;
                         num++;
                     }
-                    currentDirection = Direction.Right;
+                    direction = "Right";
                 }
             }
 
@@ -80,9 +73,8 @@ namespace _08_MethodsTasksAndArraysHW
             {
                 for (int j = 0; j < n; j++)
                 {
-                    Console.Write(string.Format(array[i, j] + "  "));
+                    Console.Write(string.Format(array[i, j] + " \t"));
                 }
-                Console.WriteLine();
                 Console.WriteLine();
             }
         }
