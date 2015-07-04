@@ -12,11 +12,10 @@ namespace Matrix
         {
             int[,] matrix = new int[,]
             {
-                {15, 31, 14},
-                {55, 11, 52},
-                {44, 3, 8}
+                {15, 31, 14, 15, 22},
+                {55, 11, 52, 44, 23},
+                {44, 3, 8, 87, 91 }
             };
-
 
             //foreach (var item in matrix)
             //{
@@ -24,9 +23,9 @@ namespace Matrix
             //}
 
 
-            Console.WriteLine(matrix[2, 1]);
-            matrix[2, 1] = 12;
-            Console.WriteLine(matrix[2, 1]);
+            //Console.WriteLine(matrix[2, 1]);
+            //matrix[2, 1] = 12;
+            //Console.WriteLine(matrix[2, 1]);
 
 
             Console.WriteLine();
@@ -34,7 +33,7 @@ namespace Matrix
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    Console.Write("{0} ", matrix[i,j]);
+                    Console.Write("{0}\t", matrix[i, j]);
                 }
                 Console.WriteLine();
             }
